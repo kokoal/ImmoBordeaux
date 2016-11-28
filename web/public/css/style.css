@@ -1,0 +1,24 @@
+header {
+    width: 100%;
+    background-color: #d30039;
+    text-align: center;
+    padding: 0.5vh 0 0.5vh 0;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+}
+
+header > nav > ul > li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 1vh 1vw 1vh 1vw;
+    margin: 0 3vw 0 3vw;
+    font-size: 120%;
+    border-radius: 5px;
+}
+
+header > nav > ul > li a:hover {
+    background-color: rgba(236, 240, 241,0.4);
+}
